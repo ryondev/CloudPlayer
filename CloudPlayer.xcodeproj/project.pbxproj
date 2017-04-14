@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A477C021EA0CEAB00FFFC97 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */; };
+		3AC1BAFA1E9F66DC006E4FF1 /* TouchOptimizationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAF91E9F66DC006E4FF1 /* TouchOptimizationView.m */; };
+		3AC1BAFD1E9F6776006E4FF1 /* PlayerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAFC1E9F6776006E4FF1 /* PlayerProgressView.m */; };
+		3AC1BB001EA09EE9006E4FF1 /* VideoInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAFF1EA09EE9006E4FF1 /* VideoInfoModel.m */; };
 		3AE972381E9E3432003AEE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE972371E9E3432003AEE34 /* main.m */; };
 		3AE9723B1E9E3432003AEE34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9723A1E9E3432003AEE34 /* AppDelegate.m */; };
 		3AE9723E1E9E3432003AEE34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9723D1E9E3432003AEE34 /* ViewController.m */; };
 		3AE972411E9E3432003AEE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE9723F1E9E3432003AEE34 /* Main.storyboard */; };
 		3AE972431E9E3432003AEE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE972421E9E3432003AEE34 /* Assets.xcassets */; };
 		3AE972461E9E3432003AEE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE972441E9E3432003AEE34 /* LaunchScreen.storyboard */; };
+		3AE9724E1E9E34D5003AEE34 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE9724D1E9E34D5003AEE34 /* Player.storyboard */; };
+		3AE972511E9F31F0003AEE34 /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE972501E9F31F0003AEE34 /* PlayerVC.m */; };
+		3AE972541E9F3261003AEE34 /* PlayerControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE972531E9F3261003AEE34 /* PlayerControllerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A477C001EA0CEAB00FFFC97 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
+		3AC1BAF81E9F66DC006E4FF1 /* TouchOptimizationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchOptimizationView.h; sourceTree = "<group>"; };
+		3AC1BAF91E9F66DC006E4FF1 /* TouchOptimizationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchOptimizationView.m; sourceTree = "<group>"; };
+		3AC1BAFB1E9F6776006E4FF1 /* PlayerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerProgressView.h; sourceTree = "<group>"; };
+		3AC1BAFC1E9F6776006E4FF1 /* PlayerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerProgressView.m; sourceTree = "<group>"; };
+		3AC1BAFE1EA09EE9006E4FF1 /* VideoInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfoModel.h; sourceTree = "<group>"; };
+		3AC1BAFF1EA09EE9006E4FF1 /* VideoInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfoModel.m; sourceTree = "<group>"; };
+		3AC1BB011EA0B682006E4FF1 /* PlayerControlDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerControlDelegate.h; sourceTree = "<group>"; };
 		3AE972331E9E3432003AEE34 /* CloudPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE972371E9E3432003AEE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AE972391E9E3432003AEE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,11 @@
 		3AE972421E9E3432003AEE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AE972451E9E3432003AEE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AE972471E9E3432003AEE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE9724D1E9E34D5003AEE34 /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		3AE9724F1E9F31F0003AEE34 /* PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVC.h; sourceTree = "<group>"; };
+		3AE972501E9F31F0003AEE34 /* PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVC.m; sourceTree = "<group>"; };
+		3AE972521E9F3261003AEE34 /* PlayerControllerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerControllerVC.h; sourceTree = "<group>"; };
+		3AE972531E9F3261003AEE34 /* PlayerControllerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerControllerVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +60,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A477BFF1EA0C84E00FFFC97 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3AE9724F1E9F31F0003AEE34 /* PlayerVC.h */,
+				3AE972501E9F31F0003AEE34 /* PlayerVC.m */,
+				3AE972521E9F3261003AEE34 /* PlayerControllerVC.h */,
+				3AE972531E9F3261003AEE34 /* PlayerControllerVC.m */,
+				3AC1BAF81E9F66DC006E4FF1 /* TouchOptimizationView.h */,
+				3AC1BAF91E9F66DC006E4FF1 /* TouchOptimizationView.m */,
+				3AC1BAFB1E9F6776006E4FF1 /* PlayerProgressView.h */,
+				3AC1BAFC1E9F6776006E4FF1 /* PlayerProgressView.m */,
+				3AC1BAFE1EA09EE9006E4FF1 /* VideoInfoModel.h */,
+				3AC1BAFF1EA09EE9006E4FF1 /* VideoInfoModel.m */,
+				3AC1BB011EA0B682006E4FF1 /* PlayerControlDelegate.h */,
+				3A477C001EA0CEAB00FFFC97 /* PlayerModel.h */,
+				3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
 		3AE9722A1E9E3432003AEE34 = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +99,17 @@
 		3AE972351E9E3432003AEE34 /* CloudPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3AE972421E9E3432003AEE34 /* Assets.xcassets */,
+				3AE972361E9E3432003AEE34 /* Supporting Files */,
 				3AE972391E9E3432003AEE34 /* AppDelegate.h */,
 				3AE9723A1E9E3432003AEE34 /* AppDelegate.m */,
 				3AE9723C1E9E3432003AEE34 /* ViewController.h */,
 				3AE9723D1E9E3432003AEE34 /* ViewController.m */,
-				3AE9723F1E9E3432003AEE34 /* Main.storyboard */,
-				3AE972421E9E3432003AEE34 /* Assets.xcassets */,
-				3AE972441E9E3432003AEE34 /* LaunchScreen.storyboard */,
 				3AE972471E9E3432003AEE34 /* Info.plist */,
-				3AE972361E9E3432003AEE34 /* Supporting Files */,
+				3A477BFF1EA0C84E00FFFC97 /* Player */,
+				3AE972441E9E3432003AEE34 /* LaunchScreen.storyboard */,
+				3AE9723F1E9E3432003AEE34 /* Main.storyboard */,
+				3AE9724D1E9E34D5003AEE34 /* Player.storyboard */,
 			);
 			path = CloudPlayer;
 			sourceTree = "<group>";
@@ -120,7 +163,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 3AE9722A1E9E3432003AEE34;
@@ -139,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE972461E9E3432003AEE34 /* LaunchScreen.storyboard in Resources */,
+				3AE9724E1E9E34D5003AEE34 /* Player.storyboard in Resources */,
 				3AE972431E9E3432003AEE34 /* Assets.xcassets in Resources */,
 				3AE972411E9E3432003AEE34 /* Main.storyboard in Resources */,
 			);
@@ -152,8 +195,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE9723E1E9E3432003AEE34 /* ViewController.m in Sources */,
+				3AE972511E9F31F0003AEE34 /* PlayerVC.m in Sources */,
 				3AE9723B1E9E3432003AEE34 /* AppDelegate.m in Sources */,
+				3A477C021EA0CEAB00FFFC97 /* PlayerModel.m in Sources */,
+				3AC1BAFA1E9F66DC006E4FF1 /* TouchOptimizationView.m in Sources */,
+				3AE972541E9F3261003AEE34 /* PlayerControllerVC.m in Sources */,
 				3AE972381E9E3432003AEE34 /* main.m in Sources */,
+				3AC1BB001EA09EE9006E4FF1 /* VideoInfoModel.m in Sources */,
+				3AC1BAFD1E9F6776006E4FF1 /* PlayerProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +363,7 @@
 				3AE9724C1E9E3432003AEE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
