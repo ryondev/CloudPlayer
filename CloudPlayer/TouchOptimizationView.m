@@ -11,7 +11,7 @@
 @implementation TouchOptimizationView
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    if (!self.optimazationFlag) {
+    if (!self.optimizationFlag) {
         return [super hitTest:point withEvent:event];
     } else {
         CGRect frame = self.progressView.frame;

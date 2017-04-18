@@ -13,6 +13,6 @@
 
 @property(nonatomic, strong) PlayerProgressView *progressView;
 
-@property(nonatomic, assign) BOOL optimazationFlag;
+@property(nonatomic, assign) BOOL optimizationFlag;
 
 @end

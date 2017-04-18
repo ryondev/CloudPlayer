@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0826975AF3495EAAE1146E00 /* libPods-CloudPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC627571799E31B5DA93714 /* libPods-CloudPlayer.a */; };
 		3A477C021EA0CEAB00FFFC97 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */; };
 		3AC1BAFA1E9F66DC006E4FF1 /* TouchOptimizationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAF91E9F66DC006E4FF1 /* TouchOptimizationView.m */; };
 		3AC1BAFD1E9F6776006E4FF1 /* PlayerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAFC1E9F6776006E4FF1 /* PlayerProgressView.m */; };
 		3AC1BB001EA09EE9006E4FF1 /* VideoInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1BAFF1EA09EE9006E4FF1 /* VideoInfoModel.m */; };
+		3ACA06171EA6099C001B9600 /* BoldSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA06161EA6099C001B9600 /* BoldSlider.m */; };
 		3AE972381E9E3432003AEE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE972371E9E3432003AEE34 /* main.m */; };
 		3AE9723B1E9E3432003AEE34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9723A1E9E3432003AEE34 /* AppDelegate.m */; };
 		3AE9723E1E9E3432003AEE34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9723D1E9E3432003AEE34 /* ViewController.m */; };
@@ -23,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06104C6E9C9B0409F808E4AD /* Pods-CloudPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudPlayer/Pods-CloudPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		3A477C001EA0CEAB00FFFC97 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
 		3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
 		3AC1BAF81E9F66DC006E4FF1 /* TouchOptimizationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchOptimizationView.h; sourceTree = "<group>"; };
@@ -32,6 +35,8 @@
 		3AC1BAFE1EA09EE9006E4FF1 /* VideoInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfoModel.h; sourceTree = "<group>"; };
 		3AC1BAFF1EA09EE9006E4FF1 /* VideoInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfoModel.m; sourceTree = "<group>"; };
 		3AC1BB011EA0B682006E4FF1 /* PlayerControlDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerControlDelegate.h; sourceTree = "<group>"; };
+		3ACA06151EA6099C001B9600 /* BoldSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoldSlider.h; sourceTree = "<group>"; };
+		3ACA06161EA6099C001B9600 /* BoldSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoldSlider.m; sourceTree = "<group>"; };
 		3AE972331E9E3432003AEE34 /* CloudPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE972371E9E3432003AEE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AE972391E9E3432003AEE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +52,8 @@
 		3AE972501E9F31F0003AEE34 /* PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVC.m; sourceTree = "<group>"; };
 		3AE972521E9F3261003AEE34 /* PlayerControllerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerControllerVC.h; sourceTree = "<group>"; };
 		3AE972531E9F3261003AEE34 /* PlayerControllerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerControllerVC.m; sourceTree = "<group>"; };
+		5BC627571799E31B5DA93714 /* libPods-CloudPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64CB6D60A14C5A3BBC6C1C1 /* Pods-CloudPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudPlayer/Pods-CloudPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0826975AF3495EAAE1146E00 /* libPods-CloudPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,8 @@
 				3AC1BB011EA0B682006E4FF1 /* PlayerControlDelegate.h */,
 				3A477C001EA0CEAB00FFFC97 /* PlayerModel.h */,
 				3A477C011EA0CEAB00FFFC97 /* PlayerModel.m */,
+				3ACA06151EA6099C001B9600 /* BoldSlider.h */,
+				3ACA06161EA6099C001B9600 /* BoldSlider.m */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -85,6 +95,8 @@
 			children = (
 				3AE972351E9E3432003AEE34 /* CloudPlayer */,
 				3AE972341E9E3432003AEE34 /* Products */,
+				40B512E9FF42AF7F4A82F2E9 /* Pods */,
+				9F683A8422B65086944D5E7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +134,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		40B512E9FF42AF7F4A82F2E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64CB6D60A14C5A3BBC6C1C1 /* Pods-CloudPlayer.debug.xcconfig */,
+				06104C6E9C9B0409F808E4AD /* Pods-CloudPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F683A8422B65086944D5E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC627571799E31B5DA93714 /* libPods-CloudPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AE9724A1E9E3432003AEE34 /* Build configuration list for PBXNativeTarget "CloudPlayer" */;
 			buildPhases = (
+				A1FB9290051D246062B0DC85 /* [CP] Check Pods Manifest.lock */,
 				3AE9722F1E9E3432003AEE34 /* Sources */,
 				3AE972301E9E3432003AEE34 /* Frameworks */,
 				3AE972311E9E3432003AEE34 /* Resources */,
+				63402AEDF2BD36ED97D0FB09 /* [CP] Embed Pods Frameworks */,
+				40FA2FE425B4B82A02E42A26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +221,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40FA2FE425B4B82A02E42A26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudPlayer/Pods-CloudPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63402AEDF2BD36ED97D0FB09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudPlayer/Pods-CloudPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FB9290051D246062B0DC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AE9722F1E9E3432003AEE34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +281,7 @@
 				3AC1BAFA1E9F66DC006E4FF1 /* TouchOptimizationView.m in Sources */,
 				3AE972541E9F3261003AEE34 /* PlayerControllerVC.m in Sources */,
 				3AE972381E9E3432003AEE34 /* main.m in Sources */,
+				3ACA06171EA6099C001B9600 /* BoldSlider.m in Sources */,
 				3AC1BB001EA09EE9006E4FF1 /* VideoInfoModel.m in Sources */,
 				3AC1BAFD1E9F6776006E4FF1 /* PlayerProgressView.m in Sources */,
 			);
@@ -322,6 +403,7 @@
 		};
 		3AE9724B1E9E3432003AEE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64CB6D60A14C5A3BBC6C1C1 /* Pods-CloudPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJMW95HQR2;
@@ -334,6 +416,7 @@
 		};
 		3AE9724C1E9E3432003AEE34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06104C6E9C9B0409F808E4AD /* Pods-CloudPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJMW95HQR2;

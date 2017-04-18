@@ -27,7 +27,7 @@
 
 - (void)addChildViewController:(UIViewController *)childController {
     [super addChildViewController:childController];
-    self.playerController = (PlayerControllerViewController *)childController;
+    self.playerController = (PlayerControllerVC *)childController;
     
 }
 

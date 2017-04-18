@@ -6,5 +6,6 @@ target 'CloudPlayer' do
   # use_frameworks!
 
   # Pods for CloudPlayer
+  pod 'BaiduBCEPlayerFull', "~> 2.0.0"
 
 end

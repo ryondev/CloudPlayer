@@ -11,4 +11,6 @@
 
 @interface PlayerControllerVC : UIViewController <PlayerActionDelegate>
 
+@property(nonatomic, weak) id<PlayerControlDelegate> controlDelegate;
+
 @end

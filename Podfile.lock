@@ -1,0 +1,15 @@
+PODS:
+  - BaiduBCEPlayerFull (2.0.0):
+    - openssl-ios-bitcode (~> 1.0.210)
+  - openssl-ios-bitcode (1.0.210)
+
+DEPENDENCIES:
+  - BaiduBCEPlayerFull (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  BaiduBCEPlayerFull: 4f100a17e63b47cf281e574070d33a3d14f2bb98
+  openssl-ios-bitcode: c833701a4488bd43de0051db41cfa75f6fef8109
+
+PODFILE CHECKSUM: bfa1506287d3fea0388feb5e447464a4d0a98953
+
+COCOAPODS: 1.2.0
